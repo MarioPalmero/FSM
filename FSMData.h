@@ -3,8 +3,6 @@
 
 #pragma once
 
-#include "FSMData.generated.h"
-
 struct FSMData
 {
 	// The most important data to have is the current state
