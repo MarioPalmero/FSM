@@ -43,7 +43,7 @@ protected:
 	void SetEndStateFunction(E state, std::function<void(E)> newEndFunction);
 	void SetUpdateFunction(E state, std::function<void(float)> newUpdateFunction);
 
-	FFSMData*									m_data;
+	FSMData*									m_data;
 private:
 	E											m_currentState;
 	std::vector<std::function<void(E)>>			m_beginFunctions;
