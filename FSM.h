@@ -111,7 +111,7 @@ inline FSMData* FSM<E, SIZE>::SaveFSM()
 template<typename E, int SIZE>
 inline void FSM<E, SIZE>::LoadFSM(FSMData* newData)
 {
-	m_currentSate = m_data->currentState;
+	m_currentState = m_data->currentState;
 	*m_data = *newData;
 }
 
